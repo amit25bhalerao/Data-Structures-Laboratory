@@ -1,5 +1,24 @@
 # Data Structures Laboratory Programs
 
+This repository contains a collection of programs implemented in C for the Data Structures Laboratory course. The programs cover various data structures and their operations, providing hands-on experience with arrays, strings, stacks, queues, linked lists, binary search trees, graphs, and hashing.
+
+## Table of Contents
+
+1. Array Operations
+2. String Operations
+3. Array Implementation of Stack
+4. Infix Expression to Postfix Expression
+5. Stack Applications
+6. Array Implementation of Queue
+7. Operations on Single Linked List
+8. Operations on Double Linked List
+9. Operations on Single Circular Linked List
+10. Operations on Binary Search Tree
+11. Operations on Graph
+12. Hash Function
+
+# Data Structures Laboratory Programs
+
 |    Program     |              Title of Program             |   Programming Solution   | 
 | :------------: | :----------------------------------------:| :----------------------: | 
 |    Prog. 1     |             Array Operations              |       [LAB1][lab1]       |
@@ -28,108 +47,22 @@
 [lab11]: https://github.com/amit25bhalerao/Data-Structures-Laboratory/tree/master/Program11/main.c
 [lab12]: https://github.com/amit25bhalerao/Data-Structures-Laboratory/tree/master/Program12/main.c
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Purpose
 
-List of Data Structures Laboratory Programs included in the repository:
+The purpose of this repository is to serve as a resource for the Data Structures Laboratory course. It provides students with practical programming examples and implementations of various data structures and their operations. By studying and running these programs, students can deepen their understanding of data structures and gain hands-on experience in implementing them.
 
-<p align="justify"> 
-Program 1 • Design, Develop and Implement a menu driven Program in C for the following array operations. <br>
-a. Creating an array of N Integer Elements. <br>
-b. Display of array Elements with Suitable Headings. <br>
-c. Inserting an Element (ELEM) at a given valid Position (POS). <br>
-d. Deleting an Element at a given valid Position (POS). <br>
-e. Exit. <br>
-Support the program with functions for each of the above operations. <br>
-</p>
+## Usage
 
-<p align="justify"> 
-Program 2 • Design, Develop and Implement a Program in C for the following operations on Strings. <br>
-a. Read a main String (STR), a Pattern String (PAT) and a Replace String (REP). <br>
-b. Perform Pattern Matching Operation: Find and Replace all occurrences of PAT in STR with REP if PAT exists in STR. Report suitable messages in case PAT does not 
-exist in STR. <br>
-Support the program with functions for each of the above operations. Don't use Built-in functions. <br>
-</p>
+These programs can be used as a reference or study material for the Data Structures Laboratory course. Students can review the implementations, understand the logic behind each program, and even run them to observe the output. The programs are written in C, making it easy to understand and modify them according to specific requirements.
 
-<p align="justify"> 
-Program 3 • Design, Develop and Implement a menu driven Program in C for the following operations on STACK of Integers (Array Implementation of Stack with maximum 
-size MAX) <br>
-a. Push an Element on to Stack. <br>
-b. Pop an Element from Stack. <br>
-c. Demonstrate how Stack can be used to check Palindrome. <br>
-d. Demonstrate Overflow and Underflow situations on Stack. <br>
-e. Display the status of Stack. <br>
-f. Exit. <br>
-Support the program with appropriate functions for each of the above operations. <br>
-</p>
+## Contribution
 
-<p align="justify"> 
-Program 4 • Design, Develop and Implement a Program in C for converting an Infix Expression to Postfix Expression. Program should support for both parenthesized and 
-free parenthesized expressions with the operators: +, -, *, /, % (Remainder), ^ (Power) and alphanumeric operands.
-</p>
+Contributions to this repository are welcome. If you have any improvements, bug fixes, or additional programs related to data structures, feel free to submit a pull request. Please ensure that your contributions adhere to the coding standards and conventions followed in the repository.
 
-<p align="justify"> 
-Program 5 • Design, Develop and Implement a Program in C for the following Stack Applications: <br>
-a. Evaluation of Suffix expression with single digit operands and operators: +, -, *, /, %, ^. <br>
-b. Solving Tower of Hanoi problem with n disks. <br>
-</p>
+## License
 
-<p align="justify"> 
-Program 6 • Design, Develop and Implement a menu driven Program in C for the following operations on Circular QUEUE of Characters (Array Implementation of Queue with 
-maximum size MAX) <br>
-a. Insert an Element on to Circular QUEUE. <br>
-b. Delete an Element from Circular QUEUE. <br>
-c. Demonstrate Overflow and Underflow situations on Circular QUEUE. <br>
-d. Display the status of Circular QUEUE. <br>
-e. Exit. <br>
-Support the program with appropriate functions for each of the above operations. <br>
-</p>
+The repository is open-source and is available under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code for educational purposes. However, it is always recommended to acknowledge the original source and provide appropriate attribution.
 
-<p align="justify"> 
-Program 7 • Design, Develop and Implement a menu driven Program in C for the following operations on Singly Linked List (SLL) of Student Data with the fields: USN, 
-Name, Programme, Sem, PhNo. <br>
-a. Create a SLL of N Students Data by using front insertion. <br>
-b. Display the status of SLL and count the number of nodes in it. <br>
-c. Perform Insertion / Deletion at End of SLL. <br>
-d. Perform Insertion / Deletion at Front of SLL(Demonstration of stack). <br>
-e. Exit. <br>
-</p>
+## Disclaimer
 
-<p align="justify"> 
-Program 8 • Design, Develop and Implement a menu driven Program in C for the following operations on Doubly Linked List (DLL) of Employee Data with the fields: SSN, 
-Name, Dept, Designation, Sal, PhNo. <br>
-a. Create a DLL of N Employees Data by using end insertion. <br>
-b. Display the status of DLL and count the number of nodes in it. <br>
-c. Perform Insertion and Deletion at End of DLL. <br>
-d. Perform Insertion and Deletion at Front of DLL. <br>
-e. Demonstrate how this DLL can be used as Double Ended Queue. <br>
-f. Exit. <br>
-</p>
-
-<p align="justify"> 
-Program 9 • Design, Develop and Implement a Program in C for the following operationson Singly Circular Linked List (SCLL) with header nodes. <br>
-a. Represent and Evaluate a Polynomial P(x,y,z) = 6x2y2z-4yz5+3x3yz+2xy5z-2xyz3. <br>
-b. Find the sum of two polynomials POLY1(x,y,z) and POLY2(x,y,z) and store the result in POLYSUM(x,y,z). <br>
-Support the program with appropriate functions for each of the above operations. <br>
-</p>
-
-<p align="justify"> 
-Program 10 • Design, Develop and Implement a menu driven Program in C for the following operations on Binary Search Tree (BST) of Integers. <br>
-a. Create a BST of N Integers: 6, 9, 5, 2, 8, 15, 24, 14, 7, 8, 5, 2. <br>
-b. Traverse the BST in Inorder, Preorder and Post Order. <br>
-c. Search the BST for a given element (KEY) and report the appropriate message. <br>
-d. Exit. <br>
-</p>
-
-<p align="justify"> 
-Program 11 • Design, Develop and Implement a Program in C for the following operations on Graph(G) of Cities. <br>
-a. Create a Graph of N cities using Adjacency Matrix. <br>
-b. Print all the nodes reachable from a given starting node in a digraph using DFS/BFS method. <br>
-d. Exit. <br>
-</p>
-
-<p align="justify"> 
-Program 12 • Given a File of N employee records with a set K of Keys (4-digit) which uniquely determine the records in file F. Assume that file F is maintained in 
-memory by a Hash Table (HT) of m memory locations with L as the set of memory addresses (2-digit) of locations in HT. Let the keys in K and addresses in L are 
-Integers. Design and develop a Program in C that uses Hash function H: K L as H(K)=K mod m (remainder method), and implement hashing technique to map a given key K 
-to the address space L. Resolve the collision (if any) using linear probing.
-</p>
+The programs provided in this repository are for educational purposes and may not be production-ready. They are meant to serve as learning resources and may not follow best practices or optimizations for real-world scenarios. Use them at your own discretion. The authors and contributors of this repository are not responsible for any misuse or damage caused by the programs.
